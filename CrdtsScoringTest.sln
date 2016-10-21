@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D28D1472-D3A4-4987-990B-4A30B8D43FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B95345E-E1C1-4896-B14E-98ED7AEC281F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CrdtsScoringTest", "src\CrdtsScoringTest\CrdtsScoringTest.xproj", "{5F535787-8CE3-4438-B8CD-20FA08DE6EFE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CrdtsScoringTestLib", "src\CrdtsScoringTestLib\CrdtsScoringTestLib.xproj", "{3929A4C2-8FB8-4F87-A5FF-47174417A24A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F535787-8CE3-4438-B8CD-20FA08DE6EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F535787-8CE3-4438-B8CD-20FA08DE6EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F535787-8CE3-4438-B8CD-20FA08DE6EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F535787-8CE3-4438-B8CD-20FA08DE6EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3929A4C2-8FB8-4F87-A5FF-47174417A24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3929A4C2-8FB8-4F87-A5FF-47174417A24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3929A4C2-8FB8-4F87-A5FF-47174417A24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3929A4C2-8FB8-4F87-A5FF-47174417A24A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F535787-8CE3-4438-B8CD-20FA08DE6EFE} = {D28D1472-D3A4-4987-990B-4A30B8D43FEF}
+		{3929A4C2-8FB8-4F87-A5FF-47174417A24A} = {D28D1472-D3A4-4987-990B-4A30B8D43FEF}
+	EndGlobalSection
+EndGlobal
